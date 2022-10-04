@@ -1,7 +1,9 @@
 #class
 class Auto:
-    marca = ""
+    marca = "Audi"
     modelo = 2014
-    placa = ""
+    placa = "PDJ7210"
 taxi = Auto()
+print(taxi.marca)
 print(taxi.modelo)
+print(taxi.placa)
