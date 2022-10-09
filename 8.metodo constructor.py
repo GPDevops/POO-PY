@@ -1,6 +1,4 @@
 #metodo constructor
-from mailbox import NoSuchMailboxError
-
 
 class Persona:
     pass             #referencia de que por elmomento esta vacio
