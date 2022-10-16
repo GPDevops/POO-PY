@@ -1,4 +1,3 @@
-#!
 #clase y objeto3 # otra forma de especificar los objetos y sus valores 
 class Nombre:
     pass            #salimos de la clase por el momento

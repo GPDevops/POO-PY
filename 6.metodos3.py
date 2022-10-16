@@ -1,5 +1,4 @@
 #metodos3
-#!
 from html.entities import name2codepoint
 
 

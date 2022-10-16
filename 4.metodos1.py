@@ -1,5 +1,4 @@
 #metodos
-#!
 class Matematica:
     def suma (self):
         self.n1 = 2

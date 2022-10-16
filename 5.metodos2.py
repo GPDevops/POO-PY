@@ -1,5 +1,4 @@
 #metodos 2
-#!
 class Ropa:
     def __init__(self):
         self.marca = "Brand1"

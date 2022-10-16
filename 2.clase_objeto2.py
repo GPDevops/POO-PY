@@ -1,4 +1,3 @@
-#!
 #clase y objetos 2
 class persona:
     doctor = "Victor"
