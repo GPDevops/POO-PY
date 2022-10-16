@@ -1,4 +1,3 @@
-#!
 #class
 class Auto:
     marca = "Audi"
