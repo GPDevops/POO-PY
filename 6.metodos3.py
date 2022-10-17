@@ -1,6 +1,4 @@
 #metodos3
-from html.entities import name2codepoint
-
 
 class Calculadora:
     def __init__(self,n1,n2):

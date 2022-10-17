@@ -1,7 +1,7 @@
 #clase y objetos 2
-class persona:
+class Persona:
     doctor = "Victor"
-class jugadores_A:
+class Jugadores_A:
     j1 = "Messi"
     j2 = "CRonaldo"
 
@@ -9,7 +9,7 @@ class jugadores_B:
     j1 = "Marcelo"
     j2 = "Falcao"
 
-print(persona.doctor)
-print(jugadores_A.j1)
+print(Persona.doctor)
+print(Jugadores_A.j1)
 print(jugadores_B.j1)
 

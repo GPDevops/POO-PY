@@ -1,4 +1,9 @@
-#herencia
+#Herencia: Permite crear una nueva clase a partir de una o mas clases existentes
+#class NombreSubClase (NOMBRECLASESUPERIOR):
+#class CLASEBASE:
+#   Cuerpo de la clase base
+#class DerivadoClase (CLASEBASE):
+#    Cuerpo de la clase derivada
 class Pokemon:                      #Clase padre
     pass
     def __init__(self,nombre,tipo):

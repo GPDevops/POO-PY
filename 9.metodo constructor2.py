@@ -2,7 +2,7 @@
 #modificar un atributo
 
 class Email:
-    pass             #referencia de que por elmomento esta vacio
+    pass             #referencia de que la clase por momento esta vacio
     def __init__(self):
         self.enviado = False
     def enviar_correo(self):
