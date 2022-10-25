@@ -1,5 +1,5 @@
-#Herencia funciones de pruebas 
-#Realizar una calculadora con 4 las operaciones basicas
+#Herencia funciones de pruebas - video 9
+#Realizar una calculadora con las 4 operaciones basicas
 print("####### OPERACIONES BASICAS ######")
 class Calculadora:
     def __init__(self, numero):
@@ -24,11 +24,16 @@ class raiz(Calculadora):
         a, = self.datos
         print("El resultado de la raiz es: ", math.sqrt(a))
 
-ejemplo = op_basicas()
-print(ejemplo.ingresardato())
-print(ejemplo.suma())
+#ejemplo = op_basicas()
+#print(ejemplo.ingresardato())
+#print(ejemplo.suma())
 
-ejemplo2 = raiz()
-print(ejemplo2.ingresardato())
-print(ejemplo2.cuadrada())
+#ejemplo2 = raiz()
+#print(ejemplo2.ingresardato())
+#print(ejemplo2.cuadrada())
 
+#FUNCIONES INTEGRADAS
+objeto = op_basicas()
+#print(isinstance(objeto, op_basicas))       #trabaja con la funcion integrada isinstance. la salida nos da true or false
+print(issubclass(Calculadora,op_basicas))    #es op_basicas a subclase de la clase calculadora? No -> output = False
+print(issubclass(op_basicas, Calculadora))  #es op_basicas a subclase de la clase calculadora. si -> output = True
