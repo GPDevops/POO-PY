@@ -31,4 +31,4 @@ class Estudiante:
 
 nuevo_estudiante = Estudiante("Victor","Cruz", "17")
 #print(f"{nuevo_estudiante}")
-print(f"{nuevo_estudiante !r}")
+print(f"{nuevo_estudiante !r}")     #representacion con los valores tal como son, es decir string, int, etc
